@@ -50,4 +50,5 @@ Este backend alimenta a interface web.
 ## 👨‍💻 Autor
 **Daniel Costa**
 * [LinkedIn](https://www.linkedin.com/in/daniel-silva-costa25/)
+
 * [GitHub](https://github.com/Antunes23)
