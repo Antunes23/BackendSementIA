@@ -1,0 +1,53 @@
+# 🌿 Sement IA - Backend API
+
+> API RESTful desenvolvida para o sistema Sement IA, focada em gestão agrícola inteligente e monitoramento de sensores IoT em tempo real.
+
+## 📺 Demonstração
+**[Clique aqui para ver o vídeo de demonstração do projeto no LinkedIn](https://www.linkedin.com/posts/daniel-silva-costa25_java-springboot-nextjs-activity-7416885435215470592-d-M4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPTxjoBqATZBuKQxNsGxa4jrguNQPQuXVY)**
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Java 17**
+* **Spring Boot** (Web, Data JPA, Validation)
+* **MySQL** (Banco de Dados)
+* **Hibernate** (ORM)
+* **Docker** (Containerização)
+* **Maven** (Gerenciamento de dependências)
+* **OpenWeatherMap API** (Integração de dados climáticos)
+
+## ⚙️ Funcionalidades da API
+
+* ✅ **Gestão de Usuários:** CRUD completo e autenticação.
+* ✅ **Gestão de Talhões:** Cadastro e controle de áreas de plantio.
+* ✅ **Integração IoT:** Recebimento e processamento de dados de sensores (via Firebase/Wokwi).
+* ✅ **Dados Climáticos:** Consumo de API externa para previsão do tempo local.
+
+## 🚀 Como rodar o projeto
+
+### Pré-requisitos
+* Java 17 instalado
+* Maven instalado
+* MySQL rodando (ou Docker)
+
+### Passo a passo
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/Antunes23/BackendSementIA.git](https://github.com/Antunes23/BackendSementIA.git)
+    ```
+2.  **Configure o Banco de Dados:**
+    * Crie um banco MySQL chamado `sement_ia_db` (ou ajuste no `application.properties`).
+3.  **Execute o projeto:**
+    ```bash
+    mvn spring-boot:run
+    ```
+4.  **Acesse a API:**
+    * O servidor iniciará em `http://localhost:8080`
+
+## 🔗 Integração Front-end
+Este backend alimenta a interface web.
+👉 **[Acesse o repositório do Front-end aqui](https://github.com/Antunes23/FrontendSementIA)**
+
+## 👨‍💻 Autor
+**Daniel Costa**
+* [LinkedIn](https://www.linkedin.com/in/daniel-silva-costa25/)
+* [GitHub](https://github.com/Antunes23)
